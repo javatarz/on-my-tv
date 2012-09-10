@@ -102,10 +102,10 @@ class TVEpisodes {
 		
 		if(TVEpisodes::$filter_summaries) {
 			
-			$_qry = DBConn::getInstance(__CLASS__)->prepare("SELECT " . TVEpisode::$fetchfields['summary'] . ", nzbt.hash, nzb.subject FROM " . TBL_EPISODES . " LEFT JOIN (nzb.nzb_tv nzbt) ON (sh_id = nzbt.show AND ep_season = nzbt.season AND ep_number = nzbt.episode AND nzbt.format = 'x264') LEFT JOIN (nzb.nzb nzb) ON (nzb.hash = nzbt.hash) WHERE " . $qry  . " AND ep_date >= :periodstart AND ep_date <= :periodend ORDER BY ep_date ASC");
+			$_qry = DBConn::getInstance(__CLASS__)->prepare("SELECT " . TVEpisode::$fetchfields['summary'] . " FROM " . TBL_EPISODES . " WHERE " . $qry  . " AND ep_date >= :periodstart AND ep_date <= :periodend ORDER BY ep_date ASC");
 		} else {
 	
-			$_qry = DBConn::getInstance(__CLASS__)->prepare("SELECT " . TVEpisode::$fetchfields['no_summary'] . ", nzbt.hash, nzb.subject FROM " . TBL_EPISODES . " LEFT JOIN (nzb.nzb_tv nzbt) ON (sh_id = nzbt.show AND ep_season = nzbt.season AND ep_number = nzbt.episode AND nzbt.format = 'x264') LEFT JOIN (nzb.nzb nzb) ON (nzb.hash = nzbt.hash) WHERE " . $qry  . " AND ep_date >= :periodstart AND ep_date <= :periodend ORDER BY ep_date ASC");
+			$_qry = DBConn::getInstance(__CLASS__)->prepare("SELECT " . TVEpisode::$fetchfields['no_summary'] . " FROM " . TBL_EPISODES . " WHERE " . $qry  . " AND ep_date >= :periodstart AND ep_date <= :periodend ORDER BY ep_date ASC");
 		}
 
 	
