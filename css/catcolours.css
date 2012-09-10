@@ -1,0 +1,141 @@
+/* CSS Document */
+
+/* 
+   Note: We are aware that this CSS file isn't.. er.. the nicest to look at, so no messages telling us how to improve it please. 
+   Please join us in #tvcat on #efnet on IRC if you want help with this file, but it's probably better just to play with it.
+   You can style the CAT by uploading this file to your own webspace then doing : http://on-my.tv?cssfile=http://www.your-url.com/your-css.css .
+   When you feel you've done something that is worthy to share with others, email the link to contact@on-my.tv, and if we like it, we'll add it to the list.
+   Good luck !
+*/
+
+body, td { color: #fff; }
+
+html { background: url(http://on-my.tv/imgs/bg.jpg) fixed repeat-x #4F7CBD; }  
+
+/* Acronym Added by Ben (Please kill me later, I wanted it to have a hand! \o/) */
+acronym { cursor: help; }
+a { color: #cccccc; }
+#options { background: #333; border-bottom-color: #222; color: #ccc; }
+#options a { color: #FF9326; }
+
+td.day { border-color: #000; background: #353535; }
+td.day a { color: #f0f0f0; }
+td.day a li a.watched { color: #999; }
+td.day th { background: #202020; }
+td.day tr.t2 { background: #2c2c2c; } 
+td.day .seasep { color: #6bf; }
+ 
+td.today { border-color: #000; background: #FF9326; }   
+td.today a { color: #8C3800; }
+td.today th{ background: #8C3800; color: #f0f0f0; } 
+td.today tr.t2 { background: #FF8000; }
+
+.prev-month a, .next-month a { color: #eee; }
+.prev-month-thin a, .next-month-thin a { color: #eee; }
+td.day .firstep { color: #FF9326; font-weight: bold; }  
+td.today .firstep { color: #000; font-weight: bold; } 
+  
+td.today .current { color: #c00; }   
+
+td.day .showwatched { color: #5ed448; }  
+td.today .showwatched {color: #a00; } 
+
+#pop { background: #1F417E; border-color: #000; }
+#popheader { background: #222; color: #fff; }
+#popheader a { text-decoration: none; color: #fff; }
+#poptext { background: #1F417E; color: #fff; }
+#popfooter { background: #222; color: #FF9326; }
+
+#click_overlay { background-color: #000000; }
+.optioonsarea { border-color: #000; background: #333; } 
+.optionsbutton { border-color: #333; color: #000; background: #FEA143; }
+ 
+.frontpage h2 { border-color: #333; }
+a.sidelinks { background: #333; border-color: #eee; color: #f0f0f0; }
+a.sidelinks:hover { background: #222; }
+.getff a { color: #fff; }
+
+a.letters { background: #333; border-color: #eee; color: #f0f0f0; }
+a.letters span { border-color: #333; }
+a.letters:hover { background: #222; }
+
+.month_name { border-color: #000; background: #333; }
+
+table.calendarbody { border-color: #000; background: #333; }
+a.calendarbody { color: #fff; }
+td.dayhead { border-bottom-color: #999; }  
+td.nextep { background: #222; }
+td.nextep a { color: #ccc; }
+td.nextep a:hover { color: #fff; }
+
+a.goback { background: #333; color: #ccc; }
+a.goback:hover { color: #fff; }
+a.gobackday { border-color: #000; background: #333; color: #ccc; }
+a.gobackday:hover { color: #fff; }
+
+table.summaries { border-color: #000; background: #333; }
+a.summaries { color: #fff; }  
+.b1 { background: #ccc; }  
+
+table.faq { border-color: #000; background: #333; }
+a.faq { color: #fff; }
+.faq a { color: #fff; } 
+
+table.epinfo td { background: #222; color: #ccc; }
+table.epinfo td a { color: #fff; }
+ 
+table#affiliate { border-color: #000; background: #333; } 
+ 
+.showselectbody { border-color: #000; background: #333; } 
+.explain { border-color: #000; background: #333; }
+
+.boldletter { color: #fff; background: #222; }
+.checkedletter { color: #f0f0f0; }
+.normalletter {	color: #bbb; }
+.new {
+	color: #ffde00;
+}
+
+.prem {
+	color: #03da68;
+}
+a.firstep { color: #fc9; }
+
+.eplink { color: #FCEFD0; }
+.eplinktoday { color: #596F80; } 
+
+.searchbutton { border-color: #333; color: #000; background: #FEA143; } 
+a.ratelink { color: #aaa;  }
+a.footnav { color: #aaa; } 
+.bottomtext p { color: #eee; } 
+.bottomtext a { color: #fff;}
+ 
+
+.nextair tr.dayhead.today th { 
+    background-color: #EF7D0E; border-bottom-color: #333333; 
+}
+
+.nextair tr.dayhead th { 
+    background-color: #202020; border-bottom-color: #333333; 
+}
+
+
+.nextair tr.epdesc { background-color: #333333; }
+.nextair tr.epdesc tr { background-color: #565656; }
+.nextair tr.ep { background-color: #565656; }
+.nextair tr.ep td { color: #ccc; }
+
+.nextair tr.ep.even { background-color: #333333; }
+.nextair tr.epdesc.odd { background-color: #565656; }
+
+.nextair tr.epsplit { background-color: #202020; border-bottom-color: #333333; } 
+.nextair tr.epsplit.today { background-color: #EF7D0E; color: #333333; } 
+
+.nextair tr.ep th a.openlink { color: #60A0DC; }
+
+td.day td.watched a.iswatched { color: #5ed448;}
+td.today td.watched a.isunwatched {color: #a00; } 
+
+h3.faq {
+    color: #FEA143; 
+}

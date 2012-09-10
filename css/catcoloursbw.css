@@ -1,0 +1,104 @@
+/* CSS Document */
+
+/* 
+   Note: We are aware that this CSS file isn't.. er.. the nicest to look at, so no messages telling us how to improve it please. 
+   Please join us in #tvcat on #efnet on IRC if you want help with this file, but it's probably better just to play with it.
+   You can style the CAT by uploading this file to your own webspace then doing : http://www.pogdesign.co.uk/cat/?cssfile=http://www.your-url.com/your-css.css .
+   When you feel you've done something that is worthy to share with others, email the link to calendar@pogdesign.co.uk, and if we like it, we'll add it to the list.
+   Good luck !
+*/
+
+/* Note: We dont current allow uploading of images, so backgrounds will have to be solid */
+html { background: #fff; }  
+
+/* Acronym Added by Ben (Please kill me later, I wanted it to have a hand! \o/) */
+acronym { cursor: help; }
+
+#options { background: #ffffff; border-bottom-color: #ccc; color: #999; }
+#closesettingslink { color: #000; }
+a { color: #000; }
+.optioonsarea { border-color: #ccc; background: #fff; } 
+.optionsbutton { border-color: #333; color: #000; background: #cccccc; }
+
+td.day { border-color: #000; background: #fff; }
+td.day a { color: #000; }
+td.day a li a.watched { color: #000; }
+td.day th { background: #ccc; }
+td.day tr.t2 { background: #f0f0f0; } 
+td.day .seasep { color: #666; }
+ 
+td.today { border-color: #000; background: #fff; }   
+td.today a { color: #000; }
+td.today th { background: #ccc; } 
+td.today tr.t2 { background: #f0f0f0; }
+
+td.day .firstep { color: #000; font-weight: bold; }  
+td.today .firstep { color: #000; font-weight: bold; } 
+
+td.day li em a.showwatched { color: #ACDCA3; }  
+td.today li em a.showwatched {color: #222; } 
+ 
+#pop { background: #fff; border-color: #000; }
+#popheader { background: #f0f0f0; color: #000; }
+#poptext { background: #fff; color: #000; }
+#popfooter { background: #f0f0f0; color: #000; }
+ 
+.frontpage h2 { border-color: #333; }
+a.sidelinks { background: #333; border-color: #eee; color: #f0f0f0; }
+a.sidelinks:hover { background: #222; }
+.getff a { color: #fff; }
+
+a.letters { background: #333; border-color: #eee; color: #f0f0f0; }
+a.letters span { border-color: #333; }
+a.letters:hover { background: #222; }
+
+.month_name { border-color: #000; background: #fff; color: #666; }
+.prev-month a, .next-month a { color: #666; }
+
+ table.calendarbody { border-color: #000; background: #333; }
+a.calendarbody { color: #fff; }
+td.dayhead { border-bottom-color: #999; }  
+td.nextep { background: #222; }
+td.nextep a { color: #ccc; }
+td.nextep a:hover { color: #fff; }
+
+a.goback { background: #333; color: #ccc; }
+a.goback:hover { color: #fff; }
+a.gobackday { border-color: #000; background: #333; color: #ccc; }
+a.gobackday:hover { color: #fff; }
+
+table.summaries { border-color: #000; background: #333; }
+a.summaries { color: #fff; }  
+.b1 { background: #ccc; }  
+
+table.faq { border-color: #000; background: #333; }
+a.faq { color: #fff; }
+.faq a { color: #fff; } 
+
+table.epinfo td { background: #222; color: #ccc; }
+table.epinfo td a { color: #fff; }
+ 
+table#affiliate { border-color: #000; background: #333; } 
+ 
+.showselectbody { border-color: #000; background: #333; } 
+.explain { border-color: #000; background: #333; }
+
+.boldletter { color: #fff; background: #222; }
+.checkedletter { color: #f0f0f0; }
+.normalletter {	color: #bbb; }
+.new { color: #fc9; }
+.prem { color: #6c9; } 
+a.firstep { color: #fc9; }
+
+.eplink { color: #FCEFD0; }
+.eplinktoday { color: #596F80; } 
+
+.searchbutton { border-color: #333; color: #000; background: #FEA143; } 
+
+a.footnav { color: #aaa; } 
+.bottomtext p { color: #eee; } 
+.bottomtext a { color: #fff;}
+
+.popuphead { color: #fff; background: #222; }
+.normalpopup { color: #fff; }
+div.nicetitle { border-color: #000; color: #fff; background: #1F417E; } 	 

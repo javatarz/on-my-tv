@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <url>
+  <loc>http://on-my.tv/</loc>
+  <priority>1.0000</priority>
+ </url>
+ <url>
+  <loc>http://on-my.tv/siteindex.php</loc>
+  <priority>1.0000</priority>
+ </url>
+ <url>
+  <loc>http://on-my.tv/css/mmccaatt.css,/css/catcolours.css</loc>
+  <priority>0.0256</priority>
+ </url>
+ <url>
+  <loc>http://on-my.tv/frequently-asked-questions</loc>
+  <priority>0.0513</priority>
+ </url>
+ <url>
+  <loc>http://on-my.tv/googlec4dd0bb4ec2854e2.html</loc>
+  <priority>0.0513</priority>
+ </url>
+ <url>
+  <loc>http://on-my.tv/imgs/bg.jpg</loc>
+  <priority>0.0256</priority>
+ </url>
+ <url>
+  <loc>http://on-my.tv/imgs/el_icon.gif</loc>
+  <priority>0.0256</priority>
+ </url>
+ <url>
+  <loc>http://on-my.tv/show-select</loc>
+  <priority>0.0256</priority>
+ </url>
+</urlset>

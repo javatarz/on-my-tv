@@ -1,0 +1,189 @@
+/* CSS Document */
+
+body { font-family: Verdana, Arial, sans-serif; text-align: center; margin: 0; padding: 0; min-width: 950px; height: 100%; } 
+th.thisday { width: 14%; font-size: 14px; font-weight: bold; } 
+h3 { display: inline; margin: 0; padding: 0; float: none; width: 70%; float: left; font-size: 21px; }
+img { border: 0px; }
+ul { margin: 0; padding: 0; list-style-type: none; }
+form { display: inline; }
+
+#options { border-bottom: 2px solid #333; margin: 0 0 5px 0; padding: 4px 0; width: 100%; height: 35px; line-height: 17px; font-size: 12px; }
+#options .o0 { float: left; width: 4%; padding-left: 5px; }
+#options .o1 { float: left; width: 25%; }
+#options .o2 { float: left; width: 49%; }
+
+td.day table, td.today table { border-collapse: collapse; width: 100%; } 
+ 
+td.day, td.today { border: 2px solid; text-align: left; vertical-align: top; padding: 2px 2px 10px 2px; }   
+td.day a, td.today a { font-size: 10px; text-decoration: none; font-weight: bold; }
+td.day th, td.today th { padding: 2px 4px; font-size: 13px; }
+td.day td, td.today td { padding: 3px 0; text-align: left; padding: 0 0 3px 0; _padding: 3px 0; line-height: 12px; }
+td.day td.watched, td.today td.watched { width: 15px; padding: 0 0 0 3px; font-size: 9px; font-weight: 700; }
+td.day .seasep, td.today .seasep { font-size: 9px; }
+  
+.frontpage { width: 80%; margin: 15px auto 0 auto; font-size: 13px; text-align: center; }
+.frontpage p { line-height: 16px; }  
+.frontpage h2 { border: 1px solid; font-weight: 100; text-align: center; }
+a.sidelinks { display: block; width: 120px; padding: 10px; font-size: 20px; text-decoration: none; border: 1px solid; }
+.getff { display: block; margin: 0 0 10px 0;}
+.getff a { font-size: 12px; font-weight: bold; }
+
+.lettersbox { width: 648px; _width: 654px; margin: 0 auto; padding: 0 auto;}
+a.letters { display: block; border: 1px solid; width: 15px; float: left; padding: 2px; margin: 0 3px 0 0; font-size: 12px; text-decoration: none; }
+a.letters span { font-weight: 100; text-align: center; border: 1px solid; }
+
+.notice { text-align: center; font-weight: bold; font-size: large; }
+
+.container { margin: 0 0 0 2%; _margin: 0; width: 96%; border: 0px; vertical-align: top; }
+.month_box { width: 100%;}
+.month_name { text-align: center; line-height: 30px; height: 30px; vertical-align: top; border: 1px solid; }
+ 
+.prev-month { width: 15%; float: left; line-height: 30px; } 
+.next-month { width: 15%; float: right; line-height: 30px; }
+
+.prev-month-thin { width: 15%; float: left; text-align: left; line-height: 20px; } 
+.next-month-thin { width: 15%; float: right; line-height: 20px; }
+
+.prev-month a, .next-month a { padding: 0 0 5px 0; text-decoration: none; font-weight: bold; font-size: 24px; }
+.prev-month a strong, .next-month a strong { font-size: 18px; padding: 0 0 5px 0; line-height: 25px; }
+.prev-month a em, .next-month a em { font-size: 24px; padding: 0 0 5px 0; line-height: 25px; }
+
+.prev-month-thin a, .next-month-thin a { padding: 0 0 3px 0; text-decoration: none; font-weight: bold; font-size: 14px; }
+.prev-month-thin a strong, .next-month-thin a strong { font-size: 12px; padding: 0 0 3px 0; line-height: 10px; }
+.prev-month-thin a em, .next-month-thin a em { font-size: 12px; padding: 0 0 3px 0; line-height: 10px; }
+
+
+#overcal {width: 95%;}
+#cal, .nextair { width: 94%; margin: 0 3%; } 
+
+#pop { position: absolute; min-width: 250px; max-width: 600px;}
+#click_overlay { opacity: 0.1; filter: alpha(opacity=95); position:fixed; top:0; left:0; width: 100%; height: 100%;  }
+
+#linksarea { width: 280px; position: absolute; left: 10px; top: 35px; text-align: left; } 
+
+#optionsarea { width: 280px; position: absolute; right: 10px; top: 35px; text-align: left; } 
+#login { text-align: left; width: 280px; position: absolute; top: 35px; right: 335px; } 
+
+#register { text-align: left; width: 280px; position: absolute; top: 35px; right: 335px; } 
+
+.linnksarea { border: 2px solid #333; border-top: 0; padding: 8px 15px 10px 15px; width: 90%; margin: 8px auto 0 auto; text-align: left; font-size: 10px; font-weight: bold; text-align: center; } 
+
+.optioonsarea { border: 2px solid #333; border-top: 0; padding: 8px 15px 10px 15px; width: 90%; margin: 8px auto 0 auto; text-align: left; font-size: 10px; font-weight: bold; text-align: center; } 
+.optioonsarea label { width: 150px; display: block; float: left; line-height: 22px; }
+.optioonsarea a { width: 150px; display: block; float: left; line-height: 24px; color: #fff; font-weight: 700; }
+.optioonsarea p { line-height: 1.8; font-weight: 100; margin: 7px 0; }
+.optioonsarea select, .optioonsarea input { width: 123px; float: left; margin: 4px 0; padding: 1px 2px; font-size: 9px; font-weight: bold; font-family: Arial, Helvetica, sans-serif; border: 1px solid;   }
+.optioonsarea input { font-family: Verdana, Arial, sans-serif; width: 119px; float: left; padding: 1px 2px; } 
+.optionsbutton { border: 1px solid; font-family: Verdana; font-weight: bold; padding: 2px; font-size: 7.5pt; margin: 4px 0 0 150px; }
+  
+.bottomtext p { margin: 0; } 
+#kk { margin: 12px 0; display: block; }
+
+table.calendarbody { padding: 2px; text-align: left; width: 80%; margin: 20px auto 0 auto; border: 1px solid; }
+a.calendarbody { font-size: 16px; text-decoration: none; float: left;}
+td.dayhead { font-weight: bold; padding-bottom: 3px; padding: 6px 6px 3px 6px; border-bottom: 2px solid; }
+td.daysyn { padding: 6px 0px 6px 6px; font-size: 11px; text-align: left; line-height: 16px; }
+.epnum { float: right; font-size: 10px; line-height: 16px;}
+td.nextep { display: block; text-align: right; padding: 3px 8px 3px 0px; font-size: 10px; font-weight: bold; }
+td.nextep a { text-decoration: none; } 
+
+a.goback { border: 1px solid; visibility: hidden; display: block; padding: 2px 10px; text-align: left; text-decoration: none; font-size: 10px; margin: 2px 10% 0 ; font-weight: bold; }
+a.gobackday { display: block; border: 1px solid; padding: 2px 10px; text-align: left; text-decoration: none; font-size: 10px; margin: 2px 10% 0; font-weight: bold; }
+
+table.summaries { border: 1px solid; text-align: left; width: 80%; margin: 15px auto 0 auto; visibility: hidden; }
+a.summaries { font-size: 16px; text-decoration: none; float: left;  cursor: pointer; }
+td.summaryeps { padding-bottom: 3px; padding: 5px 5px 3px 5px; text-align:left; }
+.openeps { font-size: 11px; line-height: 16px; }
+.b1 { clear: both; line-height: 2px; display: block; margin-bottom: 7px; padding-top: 2px; }  
+
+table.faq { border: 1px solid; text-align: left; width: 80%; margin: 15px auto 0 auto; }
+a.faq { font-size: 16px; text-decoration: none; float: left; cursor: pointer; } 
+td.faqanswers { padding-bottom: 3px; padding: 5px 5px 3px 5px; text-align:left; } 
+
+table.epinfo { width: 100%; text-align: left; margin: 9px 0 0 0; }
+table.epinfo td { margin: 1px; padding: 2px 5px; text-align: left; width: 50%; } 
+ 
+table#affiliate { border: 1px solid; text-align: left; width: 420px; margin: 15px auto 0 auto; padding: 15px ; }
+table#affiliate td { text-align: left; }
+#affiliate label { font-size: 12px; }
+#affiliate input.tupni { font-size: 13px; width: 197px; padding: 1px 0 1px 3px;}
+
+.checkbox { font-weight: bold; margin: 0 5px ; _margin: 0 3px 0 5px; }
+.showselectbody { border: 1px solid; padding: 10px 20px 20px 20px; width: 90%; margin: 0 auto; text-align: left; } 
+.explain { border: 1px solid; width: 90%; margin: 0 auto 2px auto; height: 20px; line-height: 16px; text-align: left; padding: 0 20px; }
+
+.boldletter { font-size: 13px; font-weight: bold; display: block; padding: 2px 4px; margin: 0 0 10px 0; }
+.checkedletter { font-size: 11px; font-weight: bold; width: 25%; float: left; margin: 2px 0 0 0; _margin: 0; }
+.normalletter { font-size: 11px; font-weight: normal; width: 25%; float: left; margin: 2px 0 0 0; _margin: 0; } 
+.showselectbody label { float: left; line-height: 18px; }
+a.selectsummary {display: block; background: url( http://on-my.tv/imgs/el_icon.gif) no-repeat; width: 8px; height: 9px; text-indent: -9999px; margin: 5px 0 0 95%; z-index: 10; }
+
+.eplink { text-decoration: none; margin: 0px; text-align: left; font-weight: bold; text-align: center; font-size: 11px; }
+.eplinktoday { font-size: 11px; font-weight: normal; text-decoration: none; margin: 0px; }
+  
+.searchbutton { border: 1px solid; font-family: Verdana; font-size: 14pt; font-weight: bold; margin: 15px 5px; padding: 5px; } 
+
+.footnav { text-decoration: none; font-style: normal; font-size: 9px; } 
+.bottomtext p { font-size: 11px; margin: 0px; text-align: center; line-height: 18px; }
+.bottomtext h2, .bottomtext h2 a { font-size: 9px; margin: 0 2px 0 0; padding: 0; display: inline; font-weight: 100; }  
+ 
+.ratelink { text-decoration: none; font-style: normal; font-size: 9px; }
+.clear {clear: both; font-size: 0px; height: 0px;}
+.showclear {clear: both; margin: 0 0 10px 0; font-size: 0px; height: 0px;}
+
+#pop { font-size: 10px; border: 1px solid; padding: 1px; text-align: left; line-height: 1.4; opacity: .95; filter: alpha(opacity=95);  }
+#popheader { font-size: 13px; padding: 2px 5px; }
+#poptext { padding: 4px; }
+#popfooter { text-align: right; margin-left: 0px; padding: 2px; }
+
+.usr { white-space: nowrap; }
+
+.regish { width: 460px; }
+label.regis { width: 175px; float: left; text-align: right; line-height: 30px; padding: 0 5px 0 0; font-size: 16px; }
+.inputs { float: left; width: 275px; text-align: left; line-height: 30px; padding: 2px 0 ; } 
+.inputs input { font-family: Times New Roman, Times, serif; font-size: 19px; color: #666; width: 250px; padding: 3px 0 0 2px; border: 1px solid #666; }
+.regminitext { padding: 2px 6px 2px 180px; width: 320px; font-size: 10px; }
+.regbutton { width: 170px; font-size: 16px; margin: 5px 0 0 0; }
+
+
+a.openlink { font-size: 0.7em;  }
+
+#nextair-parent { margin: 10px auto 0px auto; }
+.nextair { width: 1000px; border-collapse: collapse; table-layout: auto; margin: 10px auto 0px auto; padding: 0px; }
+
+.nextair th { text-align: left; padding: 5px; width: 250px; }
+
+.nextair td { text-align: right; padding: 0 4px; font-size: 12px; }
+
+.nextair h3 { text-align: center; }
+.nextair tr.epdesc { display: none; }
+
+.nextair tr.epdesc td { text-align: left; width: auto; padding: 5px 20px 10px; font-size: 0.7em; }
+
+.nextair tr.epdesc td div.info{ font-size: 0.8em; padding: 5px 0px 0px 5px; }
+
+.nextair tr.top-spacer { display: none; }
+.nextair tr.midspacer { display: none; }
+.nextair tr.spacer { line-height: 10px; }
+
+.nextair tr.ep td { font-size: 0.7em; }
+.nextair tr td.viewmore { width: 15px; }
+
+.nextair tr td.episodename { text-align: left; width: 275px; }
+.nextair tr td.episodename a { text-decoration: none; }
+
+.nextair tr td.airdate { width: 105px; }
+.nextair tr td.until { width: 90px; }
+.nextair tr td.airtime { width: 180px; }
+
+.nextair tr td.countryflag { width: 30px; padding-right: 2px; }
+
+.nextair tr.ep th a.openlink { text-decoration: none; font-size: 12px; }
+
+.nextair tr.epsplit {  line-height: 10px; padding: 5px auto; margin: 0px; padding-top: 10px; border-bottom-width: 1px; border-bottom-style: solid; } 
+
+h3.faq {
+    margin: 20px 0 0 0; 
+    _margin: 20px 0; 
+    width: 100%;
+}

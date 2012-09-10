@@ -1,0 +1,157 @@
+<html><head>
+<title>TVRage.com: Hiccups Episode Guide</title>
+
+
+<style type="text/css">
+body,td {
+font-family:arial;
+font-size:12px;
+color:#333;
+}
+
+h1,  h3 {
+margin:0px;
+padding:0px;
+border:0px;
+}
+
+h2.bl a,h2.bl a:link,h2.bl a:visited,h2.bl a:active {
+	color: Black;
+	text-decoration:none;
+}
+h2.bl a:hover {
+	color: Black;
+	text-decoration:none;
+}
+
+.mbold     {font-weight:bold;}
+.bt, .bt a  {font-size:14px;}
+.normal, .normal a  {font-size:10px;font-weight:normal;font-family:Verdana;line-height:12px;}
+
+a {
+color:#3C6EFF;
+text-decoration:none;
+}
+a:hover {
+color:#3C6EFF;
+text-decoration:underline;
+}
+</style>
+
+<script type="text/javascript">
+function getposOffset(overlay, offsettype){
+var totaloffset=(offsettype=="left")? overlay.offsetLeft : overlay.offsetTop;
+var parentEl=overlay.offsetParent;
+while (parentEl!=null){
+totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
+parentEl=parentEl.offsetParent;
+}
+return totaloffset;
+}
+
+function overlay(curobj, subobjstr, opt_position){
+if (document.getElementById){
+closealloverlay();
+var subobj=document.getElementById(subobjstr)
+document.onclick=function(e){
+clicktohide(curobj, subobjstr, e)
+}
+subobj.style.display=(subobj.style.display!="block")? "block" : "none"
+var xpos=getposOffset(curobj, "left")+((typeof opt_position!="undefined" && opt_position.indexOf("right")!=-1)? -(subobj.offsetWidth-curobj.offsetWidth) : 0)
+var ypos=getposOffset(curobj, "top")+((typeof opt_position!="undefined" && opt_position.indexOf("bottom")!=-1)? curobj.offsetHeight : 0)
+subobj.style.left=xpos+"px"
+subobj.style.top=ypos+20+"px"
+return false
+}
+else
+return true
+}
+
+function closealloverlay()
+{
+var oDivs = document.getElementsByTagName("DIV");
+var i;
+
+for (i = 0 ; i < oDivs.length ; i++)
+{
+if (oDivs[i].className == "OverlayDiv")
+{
+overlayclose(oDivs[i].id);
+}
+}
+}
+
+function overlayclose(subobj){
+document.getElementById(subobj).style.display="none"
+}
+
+function clicktohide(linkobj, subobj, e){
+var currentnode=(window.event)? event.srcElement : e.target
+var hidesubobj=true
+while (currentnode.tagName!="BODY" && currentnode.tagName!="HTML"){
+if (currentnode.id==subobj || currentnode==linkobj){
+hidesubobj=false
+break
+}
+currentnode=currentnode.parentNode
+}
+if (hidesubobj)
+overlayclose(subobj)
+}
+
+</script>
+
+<script type="text/javascript">
+function go_link(link) {
+
+if ( window.opener != null ) {
+window.opener.location= link;
+}
+else {
+window.location=link;
+}
+}
+</script>
+</head>
+
+<body  leftmargin='0' topmargin='0' marginwidth='0' marginheight='0' ><div id="sub_overlay_1" style="position:absolute; display:none; border: 9px solid black; background-color: lightyellow; width: 400px; height: 120px; padding: 8px;" class="OverlayDiv"><table align='center'>
+<form action='/shows/id-23201/printable' name='oid' method='GET'>
+<tr>
+  <td><label for='show_gs'><b><input id='show_gs' type='checkbox' name='nogs' value='1' CHECKED>Do not display the guest stars</b></label><br>
+<label for='show_crew'><b><input id='show_crew' type='checkbox' name='nocrew' value='1' CHECKED>Do not display the writer or directors</b></label><br>
+<label for='show_sc'><b><input id='show_sc' type='checkbox' name='screencap' value='1' >Show Screencaps When Available</b></label><br>
+</td></tr></table><hr class='nomarg'>
+<table cellspacing='0' width='100%' cellpadding='0' ><tr><td><input type='submit' value='Update Settings'></td></form><td align='right'><input type='button' onClick="javascript: document.oid.reset(); overlayclose('sub_overlay_1'); return false" value='Cancel Update'></td>
+</tr></table>
+<br>
+<div align='center'><a href="javascript: void();" onClick="overlayclose('sub_overlay_1'); return false" style="font-size:8pt;cursor : pointer;">[X] Close Window</a></div></div>
+
+<div style='width: 600px; margin-left: 10px;'><br />
+<a   href='javascript: void();' OnClick="javascript: go_link('http://www.tvrage.com')"><img src='/_layout_v3/misc/tvrlogo.jpg' style='margin-top: 0px; float: right; border: 1px solid black;' /></a>
+<div style='position: absolute; top: 20px; left: 25px;'><a id='sub_overlay_1dddd' href="javascript: void();" OnClick="javascript: return overlay(this, 'sub_overlay_1');" style="cursor: pointer;"><img src='/_layout_v3/misc/icon_settings2.gif' style='border:0px'/>&nbsp; Settings</a>&nbsp;&nbsp;&nbsp; 
+<a style='margin-bottom: 0px'  href="javascript: void();" OnClick="window.print();" ><img src='/_layout_v3/misc/icon_print.gif' style='border:0px'/>&nbsp; Click Here To Print</a></div>
+<br><br><br>
+<h2 class='bl'><a href='javascript: void();'  OnClick="javascript: go_link('/shows/id-23201');" >Hiccups Episode Guide</a></h2>
+<div align='center'></div><div style=' margin-top: 10px'>
+<div ><h1><a href='javascript: void();' OnClick="javascript: go_link('/shows/id-23201/episodes/1064901892/01x01')" class='bt'>1 :01x01 - Millie, Meet Stan</a></h1>
+<div class='normal' style='line-height:16px;'>
+<span class='mbold'>First aired:</span> Mar/01/2010<br>
+
+
+
+</div>
+<p></p>
+</div>
+</div><br>
+<hr noshade size='1' style='background-color: #4f6a67;' width='600' align='left'><div style=' margin-top: 10px'>
+<div ><h1><a href='javascript: void();' OnClick="javascript: go_link('/shows/id-23201/episodes/1064905118/01x02')" class='bt'>2 :01x02 - Strata's Fear</a></h1>
+<div class='normal' style='line-height:16px;'>
+<span class='mbold'>First aired:</span> Mar/08/2010<br>
+
+
+
+</div>
+<p></p>
+</div>
+</div><br>
+<hr noshade size='1' style='background-color: #4f6a67;' width='600' align='left'></body></html>

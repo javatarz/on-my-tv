@@ -1,0 +1,3 @@
+<div id="popheader"><strong><a href="{$show_link}">{$showname} {$season}x{$episode} - {$episode_title}</a></strong></div>
+<div id="poptext">{$episode_summary}</div>
+<div id="popfooter"><div style="float: left; margin: 1px auto auto 0px;">{^has_countryflag^&nbsp;<img src="{$flagimage_url}" title="{$country} Show" />^}</div><div>{!rating!<img src="http://{$main_url}/imgs/vote_tv_inverse.gif" />!}{!rating_parts!<img src="http://{$main_url}/imgs/vote_tv_inverse_lhalf.gif" />!}{!rating_off_parts!<img src="http://{$main_url}/imgs/vote_tv_rhalf.gif" />!}{!rating_off!<img src="http://{$main_url}/imgs/vote_tv.gif" />!}&nbsp;<strong>{^has_airtnetwork^{$ep_airtime} on {$ep_network}^}</strong></div></div>

@@ -1,0 +1,1 @@
+<?include('include/config.inc.php');error_reporting(E_ALL);throw new Exception('Uncaught Exception');?>
